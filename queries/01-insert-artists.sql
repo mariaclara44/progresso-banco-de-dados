@@ -13,7 +13,7 @@ CREATE TABLE artistas (
 INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
 VALUES
 ('Coldplay', 'Banda', 4, 'Pop', 'Reino Unido', 1996, 'Yellow', TRUE)
-(`Backstreet Boys`, 'Banda', 5, 'Pop', 'Estados Unidos', '1993', 'I want in that way', TRUE)
+(`Backstreet Boys`, 'Banda', 5, 'Pop', 'Estados Unidos', 1993, 'I want in that way', TRUE)
 ('Bruno Mars', 'Solo', 'pop', 'Estados Unidos', '2010', 'When I was your man', TRUE);
 
 
