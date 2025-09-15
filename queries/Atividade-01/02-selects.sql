@@ -1,0 +1,8 @@
+SELECT * FROM PILOTOS_F1;
+
+SELECT COUNT (*) AS total_pilotos FROM PILOTOS_F1;
+
+SELECT nome, piloto_com_mais_titulos FROM PILOTOS_F1;
+
+SELECT nome, pais_origem FROM PILOTOS_F1
+WHERE id = 4;
