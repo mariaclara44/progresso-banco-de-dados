@@ -8,7 +8,9 @@ CREATE TABLE produtos (
     categoria VARCHAR(30) NOT NULL,
     estoque INT DEFAULT 0
 
-('Lip tint', 'Rhode', 'R$219,90', 'Maquiagem', 2),
+INSERT INTO produtos (nome, marca, preco, categoria, estoque) 
+VALUES
+ ('Lip tint', 'Rhode', 'R$219,90', 'Maquiagem', 2),
 ('Pocket Blush', 'Rhode', 'R$269,90', 'Maquiagem', 3),
 ('Hidratante Barrier Butter', 'Rhode', 'R$ 279,90', 'Skincare', 1),
 ('Lip Shape', 'Rhode', 'R$ 259,90', 'Maquiagem', 0),
@@ -27,4 +29,4 @@ CREATE TABLE produtos (
 ('Bond Maintenance Conditioner No.5 (250ml)', 'Olaplex', 'R$189,00', 'Cabelos', 75),
 ('Body Hero Daily Perfecting Cream (200ml)', 'Glossier', 'R$169,00', 'Corpo', 60),
 ('Touch-Up Kit - Blot & Glow', 'Rare Beauty', 'R$139,90', 'Maquiagem', 45),
-('Butta Drop Whipped Oil Body Cream (200ml)', 'Fenty Skin', 'R$239,00', 'Corpo', 50),
+('Butta Drop Whipped Oil Body Cream (200ml)', 'Fenty Skin', 'R$239,00', 'Corpo', 50);
