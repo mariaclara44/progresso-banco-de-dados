@@ -10,19 +10,18 @@ UPDATE produtos SET preco = preco * 1.15
 WHERE marca = 'Rhode';
 
 -- Diminua em 10% o preço de produtos com estoque maior que 100 unidades
-UPDATE produtos SET preco = preco
+UPDATE produtos SET preco = preco * 0.9
 WHERE estoque > 100;
 
 --DESAFIO EXTRA 
 -- Aplique 30% de desconto em produtos da categoria "perfumes"
 UPDATE produtos SET preco = preco * 0.7
-WHERE categoria = 'Perfumes';
+WHERE categoria = 'Perfume';
 
 -- Aumente o estoque em 25 unidades para produtos com preço acima de R$ 150,00
 UPDATE produtos SET estoque = estoque + 25 
 WHERE preco > 150.00;
 
--- Delete produtos que tenham estoque entre 1 e 5 unidades
 
 
 
