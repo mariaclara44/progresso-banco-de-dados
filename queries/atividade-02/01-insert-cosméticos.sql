@@ -8,7 +8,7 @@ CREATE TABLE produtos (
     categoria VARCHAR(30) NOT NULL,
     estoque INT DEFAULT 0
 
-('Lip tint', 'rhode', 'R$219,90', 'Maquiagem', 2),
+('Lip tint', 'Rhode', 'R$219,90', 'Maquiagem', 2),
 ('Pocket Blush', 'Rhode', 'R$269,90', 'Maquiagem', 3),
 ('Hidratante Barrier Butter', 'Rhode', 'R$ 279,90', 'Skincare', 1),
 ('Lip Shape', 'Rhode', 'R$ 259,90', 'Maquiagem', 0),
